@@ -140,6 +140,56 @@ box-shadow:0 10px 30px rgba(255,255,255,.25);
 transform:translateY(-4px);
 
 }
+
+
+
+.nav-actions{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+.admin-btn{
+
+width:52px;
+
+height:52px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+padding:0;
+
+border-radius:50%;
+
+background:#ffffff;
+
+color:var(--primary);
+
+font-size:18px;
+
+box-shadow:0 10px 30px rgba(255,255,255,.25);
+
+}
+
+.admin-btn:hover{
+
+transform:translateY(-4px);
+
+background:#f8fbff;
+
+}
+
+
+
+
 header{
 
 background:linear-gradient(135deg,
@@ -900,6 +950,29 @@ font-size:36px;
 font-size:24px;
 
 }
+
+
+
+.nav-actions{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+}
+
+.admin-btn{
+
+width:46px;
+
+height:46px;
+
+}
+
+
+
 
 }
 
