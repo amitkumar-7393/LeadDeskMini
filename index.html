@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>LeadDesk Mini | Digital Heroes</title>
+
+<meta name="description"
+content="Premium Lead Management System">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<script type="module"
+src="firebase.js"></script>
+
+<script type="module"
+src="app.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+<i class="fa-solid fa-layer-group"></i>
+
+<span>LeadDesk</span>
+
+</div>
+
+<a href="#leadForm">
+
+<button class="nav-btn">
+
+Get Started
+
+</button>
+
+</a>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>
+
+Manage Leads
+
+<span>Smarter</span>
+
+</h1>
+
+<p>
+
+Capture, organize and manage customer leads with a modern dashboard.
+
+</p>
+
+<a href="#leadForm">
+
+<button>
+
+Start Free
+
+</button>
+
+</a>
+
+</div>
+
+<div class="hero-card">
+
+<div class="circle"></div>
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>
+
+Business Growth
+
+</h3>
+
+<p>
+
+Simple • Secure • Fast
+
+</p>
+
+</div>
+
+</section>
+
+</header>
+
+<main>
+
+<section class="features">
+
+<div class="feature">
+
+<i class="fa-solid fa-bolt"></i>
+
+<h3>
+
+Fast
+
+</h3>
+
+<p>
+
+Lightning fast lead submission.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fa-solid fa-lock"></i>
+
+<h3>
+
+Secure
+
+</h3>
+
+<p>
+
+Firebase Authentication.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fa-solid fa-cloud"></i>
+
+<h3>
+
+Cloud
+
+</h3>
+
+<p>
+
+Realtime Firestore Database.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="form-section">
+
+<div class="form-card">
+
+<h2>
+
+Submit Your Lead
+
+</h2>
+
+<p>
+
+We'll contact you shortly.
+
+</p>
+
+<form id="leadForm">
+  <input
+type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required>
+
+<select id="budget" required>
+
+<option value="">
+Select Budget
+</option>
+
+<option>
+$500 - $1000
+</option>
+
+<option>
+$1000 - $5000
+</option>
+
+<option>
+$5000+
+</option>
+
+</select>
+
+<textarea
+id="message"
+placeholder="Tell us about your project..."
+required></textarea>
+
+<button
+type="submit">
+
+Submit Lead
+
+</button>
+
+</form>
+
+<div id="status"></div>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stat">
+
+<h2>500+</h2>
+
+<p>Clients</p>
+
+</div>
+
+<div class="stat">
+
+<h2>1200+</h2>
+
+<p>Leads Managed</p>
+
+</div>
+
+<div class="stat">
+
+<h2>99%</h2>
+
+<p>Success Rate</p>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="footer-content">
+
+<h3>LeadDesk Mini</h3>
+
+<p>
+
+Built for modern businesses using
+Firebase & JavaScript.
+
+</p>
+
+<p id="xnfa1x">
+
+Built for
+
+<a
+href="https://digitalheroesco.com"
+target="_blank">
+
+Digital Heroes Training Task
+
+</a>
+
+</p>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
